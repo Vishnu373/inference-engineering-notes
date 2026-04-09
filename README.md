@@ -4,6 +4,7 @@ A comprehensive guide to understanding **inference engineering** — the science
 
 ## 📚 Contents
 
+- **[prerequiste.md](prerequiste.md)** - 5 critical questions to ask before building inference systems
 - **[basics.md](basics.md)** - Core concepts, techniques, and frameworks for inference engineering
 
 ## 🎯 What is Inference Engineering?
