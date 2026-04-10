@@ -80,3 +80,45 @@ Rent GPUs from a cloud provider or buy physical hardware yourself (on-premises) 
 - **Scale** → volume is high enough that per-GPU pricing beats per-token pricing
 - **Specialization** → you have a custom/fine-tuned model or strict latency/uptime needs
 - **Orchestration** → you're chaining multiple models together and shared APIs add too much network overhead
+
+### Shared vs Dedicated — When, Why & Optimization
+
+Two types of inference builders:
+
+1. **Horizontal** → build for everyone. Either a foundation model (Anthropic, OpenAI, Meta) or an inference platform (Together AI, Fireworks AI). Can't make assumptions. Must handle anything.
+
+2. **Vertical** → build for one specific use case. Cursor, Perplexity, customer service bots. Optimize hard for that one thing.
+
+**When to move from shared to dedicated:**
+
+1. **Optimization for vertical apps** — you know your constraints upfront so you optimize specifically:
+   - **Latency** → how fast it responds
+   - **Unit economics** → cost per request/user/month
+   - **Throughput** → how many requests handled simultaneously
+   - **Uptime/downtime** → reliability of your deployment
+   - **Dedicated deployment costs** → is it worth moving off shared inference
+
+2. **Optimization for horizontal apps** — you don't know who's coming or what they'll throw at you. So instead of optimizing for one thing, you optimize for flexibility:
+   - Handle any model
+   - Handle any usage pattern — spiky, steady, bursty
+   - Handle any latency requirement
+   - Handle any scale
+
+- **Vertical** = make one thing really fast and cheap.
+- **Horizontal** = make the system flexible and reliable enough to handle anything.
+
+### Online vs Offline
+
+**Throughput** = number of requests processed per second/hour. Higher throughput = more users served with same hardware = cheaper.
+
+**Latency** = how fast a single request gets a response.
+
+**Online apps** (chat, code completion, voice) — user is waiting. Latency is primary. Use more resources to respond fast. Smaller batches processed immediately.
+
+**Offline apps** (bulk email processing, catalog generation) — no user waiting. Throughput is primary. Collect large batches, process efficiently, time doesn't matter.
+
+Same 8GB GPU, different strategy:
+- **Offline** → wait, collect all 100 requests, process in one big batch
+- **Online** → don't wait, take 5-10 requests available right now, process immediately
+
+Quality is the same either way. The tradeoff is speed vs efficiency.
