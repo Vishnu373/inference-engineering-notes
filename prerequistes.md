@@ -122,3 +122,4 @@ Same 8GB GPU, different strategy:
 - **Online** → don't wait, take 5-10 requests available right now, process immediately
 
 Quality is the same either way. The tradeoff is speed vs efficiency.
+

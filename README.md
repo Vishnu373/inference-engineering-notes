@@ -10,5 +10,7 @@ I am preparing these notes by going through the inference engineering book by Ph
 
 ## 📚 Contents
 
-- **[prerequiste.md](prerequiste.md)** - 5 critical questions to ask before building inference systems
 - **[basics.md](basics.md)** - Core concepts, techniques, and frameworks for inference engineering
+- **[prerequiste.md](prerequiste.md)** - 5 critical questions to ask before building inference systems
+- **[fine_tuning.md](fine_tuning.md)**
+- **[distillation.md](distillation.md)**
