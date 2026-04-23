@@ -12,5 +12,6 @@ I am preparing these notes by going through the inference engineering book by Ph
 
 - **[basics.md](basics.md)** - Core concepts, techniques, and frameworks for inference engineering
 - **[prerequiste.md](prerequiste.md)** - 5 critical questions to ask before building inference systems
-- **[fine_tuning.md](fine_tuning.md)**
-- **[distillation.md](distillation.md)**
+- **[fine_tuning.md](fine_tuning.md)** - Adapting pre-trained models for specific use cases
+- **[distillation.md](distillation.md)** - Teaching smaller models to behave like larger ones
+- **[llm_performance_metrics.md](llm_performance_metrics.md)** - TTFT, TPS, percentiles, and end-to-end latency metrics
