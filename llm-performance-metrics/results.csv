@@ -1,0 +1,67 @@
+bucket,prompt_len,output_tokens,ttft_ms,total_ms,error
+medium,348,55,5104.4,6583.6,
+medium,345,52,6377.0,6429.7,
+medium,336,54,9249.5,10173.9,
+short,70,8,5491.1,5517.4,
+short,74,12,2723.8,2746.4,
+short,64,8,3217.1,3221.3,
+medium,361,62,7646.1,7726.6,
+short,65,10,3758.3,3766.4,
+medium,303,51,7338.0,7388.4,
+short,80,10,2602.3,2606.5,
+short,76,11,4171.0,4178.8,
+short,56,9,2633.1,2984.7,
+short,79,11,2956.4,2956.8,
+short,71,11,7895.1,7895.7,
+medium,347,47,4068.4,4562.5,
+medium,422,34,14182.2,14208.6,
+medium,378,57,8153.5,8894.9,
+short,85,11,2967.4,2981.2,
+short,67,8,18292.9,18293.4,
+medium,318,51,14552.4,15202.1,
+short,48,8,2237.3,2237.8,
+medium,358,55,7515.0,7578.6,
+short,64,10,2775.1,2784.1,
+short,75,11,4577.1,4591.0,
+short,65,7,23932.8,23952.0,
+medium,348,51,8645.3,8662.0,
+medium,337,69,3344.9,4125.6,
+medium,387,54,17934.2,18423.2,
+medium,354,50,11987.6,12611.3,
+short,65,10,3145.6,3168.8,
+medium,391,54,3932.9,4136.6,
+short,69,10,2666.6,2689.7,
+medium,364,51,8748.1,8942.9,
+short,91,9,4068.9,4075.9,
+short,68,10,3034.5,3053.2,
+medium,369,45,5483.0,5523.0,
+medium,424,50,3230.0,3674.4,
+short,56,8,5153.9,5155.8,
+medium,317,41,7613.4,7656.6,
+short,60,7,5569.4,5571.3,
+medium,340,43,11364.4,11453.7,
+medium,391,56,12558.7,12906.4,
+short,74,7,4775.9,4782.8,
+medium,340,52,3310.8,3732.4,
+short,68,9,3842.7,3861.4,
+short,74,8,3927.1,3939.5,
+short,56,9,2230.1,2234.8,
+short,56,9,3289.2,3315.4,
+short,69,7,3701.8,3713.3,
+short,66,13,2439.5,2458.2,
+short,61,0,,302.1,429 Client Error: Too Many Requests for url: https://openrouter.ai/api/v1/chat/completions
+short,87,0,,351.1,429 Client Error: Too Many Requests for url: https://openrouter.ai/api/v1/chat/completions
+medium,394,0,,334.8,429 Client Error: Too Many Requests for url: https://openrouter.ai/api/v1/chat/completions
+medium,345,0,,292.8,429 Client Error: Too Many Requests for url: https://openrouter.ai/api/v1/chat/completions
+short,86,0,,360.3,429 Client Error: Too Many Requests for url: https://openrouter.ai/api/v1/chat/completions
+medium,336,0,,306.6,429 Client Error: Too Many Requests for url: https://openrouter.ai/api/v1/chat/completions
+medium,368,0,,456.6,429 Client Error: Too Many Requests for url: https://openrouter.ai/api/v1/chat/completions
+medium,369,0,,589.6,429 Client Error: Too Many Requests for url: https://openrouter.ai/api/v1/chat/completions
+medium,414,0,,428.5,429 Client Error: Too Many Requests for url: https://openrouter.ai/api/v1/chat/completions
+medium,327,0,,298.2,429 Client Error: Too Many Requests for url: https://openrouter.ai/api/v1/chat/completions
+short,93,0,,441.9,429 Client Error: Too Many Requests for url: https://openrouter.ai/api/v1/chat/completions
+medium,357,0,,303.5,429 Client Error: Too Many Requests for url: https://openrouter.ai/api/v1/chat/completions
+medium,347,0,,291.5,429 Client Error: Too Many Requests for url: https://openrouter.ai/api/v1/chat/completions
+medium,363,0,,327.2,429 Client Error: Too Many Requests for url: https://openrouter.ai/api/v1/chat/completions
+medium,354,0,,298.7,429 Client Error: Too Many Requests for url: https://openrouter.ai/api/v1/chat/completions
+short,69,0,,295.7,429 Client Error: Too Many Requests for url: https://openrouter.ai/api/v1/chat/completions
