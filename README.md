@@ -15,6 +15,7 @@ I am preparing these notes by going through the inference engineering book by Ph
 - **[fine_tuning.md](fine_tuning.md)** - Adapting pre-trained models for specific use cases
 - **[distillation.md](distillation.md)** - Teaching smaller models to behave like larger ones
 - **[llm_performance_metrics.md](llm_performance_metrics.md)** - TTFT, TPS, percentiles, and end-to-end latency metrics
+- **[neural_networks.md](neural_networks.md)** - How neural networks work: layers, weights, biases, forward pass, and backpropagation
 
 ## 🧪 Hands-on
 
