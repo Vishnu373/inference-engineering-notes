@@ -2,7 +2,7 @@
 
 A neural network is a collection of nodes (neurons) organized in layers, connected to each other by weighted connections. Data flows forward through the network to produce a prediction, and errors flow backward to improve it.
 
-![Neural Network Diagram](assets/neural_networks.png)
+![Neural Network Diagram](assets/neural_network_explainer.svg)
 
 ## Architecture
 
