@@ -17,6 +17,7 @@ I am preparing these notes by going through the inference engineering book by Ph
 - **[llm_performance_metrics.md](llm_performance_metrics.md)** - TTFT, TPS, percentiles, and end-to-end latency metrics
 - **[neural_networks.md](neural_networks.md)** - How neural networks work: layers, weights, biases, forward pass, and backpropagation
 - **[matrix_multiplication.md](matrix_multiplication.md)** - How matrix multiplication works and why it is the core operation behind every neural network layer
+- **[activation_function.md](activation_function.md)** - ReLU, Sigmoid, Tanh, and Softmax — what they do, where to use them, and their tradeoffs
 
 ## 🧪 Hands-on
 
