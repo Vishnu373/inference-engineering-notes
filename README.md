@@ -18,6 +18,10 @@ I am preparing these notes by going through the inference engineering book by Ph
 - **[neural_networks.md](neural_networks.md)** - How neural networks work: layers, weights, biases, forward pass, and backpropagation
 - **[matrix_multiplication.md](matrix_multiplication.md)** - How matrix multiplication works and why it is the core operation behind every neural network layer
 - **[activation_function.md](activation_function.md)** - ReLU, Sigmoid, Tanh, and Softmax — what they do, where to use them, and their tradeoffs
+- **[llm_inference_mechanism.md](llm_inference_mechanism.md)** - Tokens, tokenization, and how LLMs process and generate text step by step
+- **[llm_architecture.md](llm_architecture.md)** - LLM phases, model name breakdown and llm model layers
+- **[attention.md](attention.md)** - How attention works: relevance scores, queries, keys, values, and multi-head attention
+- **[model_evaluation.md](model_evaluation.md)** - Evaluating model intelligence: correctness, consistency, and reliability for your use case
 
 ## 🧪 Hands-on
 
