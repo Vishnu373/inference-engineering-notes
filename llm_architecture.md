@@ -22,3 +22,16 @@ Note: Autoregressive -> predicting each token based on preceding tokens.
   - Feed forward network
   - Normalization
 - Output layer (LM head) -> converts transformer hidden states into a vector of logits for each token
+
+## Attention
+- Mechanism by which each token computes a weighted sum over all other tokens.
+ - where the weights determine how relevant each token is to the current one.
+
+Attention takes in 3 inputs:
+- Queries (Q) -> 
+- Keys (K) ->
+- Values (V) -> 
+
+Two main types of attention:
+- Self attention ->
+- Cross attention -> 
