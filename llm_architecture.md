@@ -1,9 +1,12 @@
 ## LLM Phases
 
-- Prefill -> process each input token and store its attention in KV cache. | Parallel operation
-- Decode -> generate output tokens autoregressively. | Sequential operation
+- Prefill -> process each input token and store its attention in KV cache. | Parallel operation, Compute bound
+- Decode -> generate output tokens autoregressively. | Sequential operation, Memory bound
 
-Note: Autoregressive -> predicting each token based on preceding tokens.
+Note: 
+Autoregressive -> predicting each token based on preceding tokens.
+Compute-bound -> CPU or GPU is the bottleneck | it does the calculations.
+Memory-bound -> Reading data from memory (system RAM or VRAM) is the bottleneck. | data transfer.
 
 ## Model Name Breakdown
 
