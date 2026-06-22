@@ -21,6 +21,8 @@ I am preparing these notes by going through the inference engineering book by Ph
 - **[llm_inference_mechanism.md](llm_inference_mechanism.md)** - Tokens, tokenization, and how LLMs process and generate text step by step
 - **[llm_architecture.md](llm_architecture.md)** - LLM phases, model name breakdown and llm model layers
 - **[attention.md](attention.md)** - How attention works: relevance scores, queries, keys, values, and multi-head attention
+- **[kv_cache.md](kv_cache.md)** - How the KV cache works: storing past key-value pairs to avoid recomputing attention on every token
+- **[mixture_of_experts_models.md](mixture_of_experts_models.md)** - MoE architecture: sparse expert routing, gating networks, and why MoE models are efficient at scale
 - **[model_evaluation.md](model_evaluation.md)** - Evaluating model intelligence: correctness, consistency, and reliability for your use case
 
 ## 🧪 Hands-on
