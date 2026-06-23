@@ -24,6 +24,7 @@ I am preparing these notes by going through the inference engineering book by Ph
 - **[kv_cache.md](kv_cache.md)** - How the KV cache works: storing past key-value pairs to avoid recomputing attention on every token
 - **[mixture_of_experts_models.md](mixture_of_experts_models.md)** - MoE architecture: sparse expert routing, gating networks, and why MoE models are efficient at scale
 - **[model_evaluation.md](model_evaluation.md)** - Evaluating model intelligence: correctness, consistency, and reliability for your use case
+- **[image_generation_models.md](image_generation_models.md)** - How image generation models work: diffusion pipeline, latent space, guidance scale, and LLM-style generation
 
 ## 🧪 Hands-on
 
