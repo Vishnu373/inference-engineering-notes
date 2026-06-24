@@ -25,6 +25,7 @@ I am preparing these notes by going through the inference engineering book by Ph
 - **[mixture_of_experts_models.md](mixture_of_experts_models.md)** - MoE architecture: sparse expert routing, gating networks, and why MoE models are efficient at scale
 - **[model_evaluation.md](model_evaluation.md)** - Evaluating model intelligence: correctness, consistency, and reliability for your use case
 - **[image_generation_models.md](image_generation_models.md)** - How image generation models work: diffusion pipeline, latent space, guidance scale, and LLM-style generation
+- **[inference_bottlenecks.md](inference_bottlenecks.md)** - Compute-bound vs memory-bound workloads, batching, GPU ops:byte ratio, and arithmetic intensity
 
 ## 🧪 Hands-on
 
